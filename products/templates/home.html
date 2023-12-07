@@ -1,0 +1,9 @@
+<h1>This is the Home Template</h1>
+
+{% if user.is_authenticated %}
+<ul>
+  {% for p in products %}
+  <li>{{p.name}} - {{p.price}}</li>
+  {% endfor %}
+</ul>
+{% endif %}

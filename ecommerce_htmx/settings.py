@@ -58,7 +58,7 @@ ROOT_URLCONF = 'ecommerce_htmx.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'products' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
