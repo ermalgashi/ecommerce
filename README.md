@@ -31,6 +31,5 @@ The generated IP is used as link in browser to access the website.
 No defined guidelines to contributing to project yet.
 
 ## License
-Copyright (c) 2023 ermalgashi
-
+Copyright (c) 2023 Ermal & Ardit
 For further information read LICENSE File
