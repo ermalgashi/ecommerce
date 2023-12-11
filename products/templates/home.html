@@ -3,7 +3,7 @@
 {% if user.is_authenticated %}
 <ul>
   {% for p in products %}
-  <li>{{p.name}} - {{p.price}}</li>
+  <li>{{p.name}} - {{p.price}} - {{ p.category }}</li>
   {% endfor %}
 </ul>
 {% endif %}
